@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-btn {
+    @apply text-white first-letter:text-red-500 uppercase font-semibold ml-8;
+  }
+  .btn {
+    @apply capitalize font-bold;
+  }
+}
